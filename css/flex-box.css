@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.contain {
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#pic1,
+#pic2,
+#pic3,
+#pic4,
+#pic5,
+#pic6,
+#pic7,
+#pic8,
+#pic9
+{
+    float: left;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+/*
+.contain {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row /* works with row or column 
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+*/
+
+@media (min-width: 37.5rem) {
+    /* 600px */
+    .contain {
+        overflow: auto;
+        width: 100%;
+    }
+    header {
+        text-align: left;
+    }
+    main,
+    aside {
+        float: left;
+    }
+    main {
+        padding-right: 1rem;
+        width: 60%;
+    }
+    aside {
+        width: 40%;
+    }
+    #g2 {
+        font-size: 3.0vh;
+    }
+}
