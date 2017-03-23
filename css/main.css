@@ -36,8 +36,8 @@ a:link {
     text-align: right;
 }
 
-</style>
-}
+
+
 #nav {
     margin-top: 70px;
 }
@@ -156,7 +156,7 @@ a:link {
 }
 img:hover {
     opacity: 0.5;
-    filter: #082E41(opacity=50);
+    filter: alpha(opacity=50);
 }
 #description {
     color: #FFFFFF;
@@ -239,7 +239,7 @@ img:hover {
     display: inline-block;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
-    margin: 3px 490px;
+    margin: 3px 30px;
 }
 a:hover {
     background-color: #082E41;
