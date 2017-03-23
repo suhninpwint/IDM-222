@@ -4,7 +4,8 @@
 
 body {
     background-color: #082E41;
-    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 header {
@@ -15,17 +16,71 @@ header {
     text-align: center;
 }
 
+#nav {
+    margin-top: 70px;
+}
+.navigation {
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    margin: 0;
+    background-color: #23BEBB;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 10px;
+    font-size: 18px;
+}
+.navigation a {
+    font-family: 'Lato', sans-serif;
+    color: #082E41;
+    display: block;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navigation a:hover {
+    font-family: 'Lato', sans-serif;
+    background-color: #082E41;
+    color: white;
+    padding-right: 30px;
+}
+@media all and (min-width: 600px) {
+    .navigation {
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+    .navigation a {
+        border: none;
+    }
+}
+@media all and (min-width: 800px) {
+    .navigation {
+        justify-content: flex-end;
+    }
+}
+
 #name_resume {
     font-family: 'Lato', sans-serif;
     color: #24BABD;
     font-size: 20px;
-     text-align: right;
+    text-align: right;
 }
 
-
+#try {
+    font-family: "Blowbrush", sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
 
 hr {
-   
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     margin-left: auto;
@@ -35,8 +90,8 @@ hr {
 }
 
 
-
 /* Column 1 */
+
 #column1 {
     width: 313px;
     padding: 10px;
@@ -44,20 +99,20 @@ hr {
     float: left;
 }
 
+
 /* Column 2 */
 
-#columnseperate{
-    width:313px;
-    float:left;
+#columnseperate {
+    width: 313px;
+    float: left;
     padding-left: 40px;
 }
 
-#column2{
+#column2 {
     width: 313px;
-    padding-left:40px;
+    padding-left: 40px;
     float: right;
-    padding-right:  5rem;
-
+    padding-right: 5rem;
 }
 
 
@@ -194,6 +249,7 @@ hr {
 
 
 /* Flex box */
+
 
 /*
 

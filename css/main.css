@@ -14,7 +14,7 @@ body {
 }
 
 a:link {
-    color: #24BABD;
+    color: #23BEBB;
 }
 
 /*_________________________________ */
@@ -29,6 +29,7 @@ a:link {
     color: white;
     font-size: 60px;
     text-align: center;
+ 
 }
 
 #nameonly {
@@ -243,7 +244,7 @@ img:hover {
 }
 a:hover {
     background-color: #082E41;
-    color: white;
+    color: blu;
 }
 a:active {
     color: white;
