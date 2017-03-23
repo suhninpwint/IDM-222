@@ -3,72 +3,99 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="inital-scale=1.0, user-scalable=no, width=device-width,maximum-scale=1.0" />
-    <title> Projects </title>
+    <title> Contact </title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/shpdesktop.css">
-    <link rel="stylesheet" href="css/shpmobile.css" media="screen and (min-width: 768px)">
-    <link rel="stylesheet" href="css/shptablet.css" media="screen and (min-width: 1024px)">
-    <link rel="stylesheet" href="css/screen.css" media="screen">
-    <link rel="stylesheet" href="css/flex-box.css"> </head>
+    <style type="text/css">
+        @font-face {
+            font-family: "Blowbrush";
+            src: url("fonts/blowbrush/blowbrush.ttf");
+        }
+    </style>
+    <style>
+        input[type=text] {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 5px red;
+            border-radius: 2px;
+        }
+    </style>
+    <!--
+    <style id="msg">
+     input[type=text] {
+            width: 50%;
+            height: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 5px red;
+            border-radius: 2px;
+        }
+        </style>
+    -->
+</head>
 
 <body>
-    <!-- Nav -->
-    <div class="mnav">
-        <header>
-            <div id="websitename"> Su Hnin Pwint</div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="profile.html">Profile</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <!-- <li><a href="">contact</a></li> -->
-                </ul>
-            </nav>
-        </header>
-    </div>
     <div class="wrapper">
-        <header>
-            <h2> Contact </h2> </header>
-        <div class="contain">
-            <main>
-                <div id="fa">
-                    <div id="tagline"> </div>
-                    <form> Name:
-                        <br>
-                        <input type="text" name="fullname">
-                        <br> Email address:
-                        <br>
-                        <input type="text" name="email">
-                        <br> Subject:
-                        <br>
-                        <input type="text" name="subject">
-                        <br>
-                        <div id="msg"> Message:
-                            <br>
-                            <input type="text" name="message"> </div>
-                        <br>
-                        <input type="submit" value="Submit"> </form>
-                </div>
-                <!--<h2> Contact Me</h2> -->
-                <div id="info">
-                    <ul>
-                        <!-- <li>[ My Address] 3175 JFK Blvd Philadelphia, PA </li>-->
-                        <li><a href="https://www.suhninpwint.com">My Website </a> </li>
-                        <li><a href="http://github.com/suhninpwint">My Github Account</a></li>
-                        <li><a href="https://www.behance.net/suhninpwint">My Behance Account</a> </li>
-                        <li><a href="https://dribbble.com/suhninpwint">My Dribble Account</a> </li>
-                        <li><a href="https://www.linkedin.com/in/su-hnin-pwint-84827b109">My Linkedin Account</a></li>
-                        <li><a href="mailto:suhnin.2012@gmail.com">Email Address</a></li>
-                        <!--  sp3255@drexel.edu)</li>-->
-                    </ul>
-                </div>
-            </main>
+        <div id="try"><a href="index.html">Su</a> </div>
+        <div id="nav">
+            <ul class="navigation">
+                <li><a href="project.html"> Projects </a></li>
+                <li> <a href="resume.html"> Resume </a></li>
+                <li> <a href="profile.html"> About Me </a></li>
+                <li> <a href="contact.html"> Contact </a></li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <header>
+                <div id="pagename"> Contact Me</div>
+            </header>
+            <div class="container">
+                <main>
+                    <div id="fa">
+                        <!--  <div id="tagline"> </div> -->
+                        <div id="name">
+                            <form> Name:
+                                <br>
+                                <input type="text" name="fullname"> </form>
+                        </div>
+                        <div id="email">
+                            <form>
+                                <br> Email address:
+                                <br>
+                                <input type="text" name="email"> </form>
+                        </div>
+                        <div id="subject">
+                            <form>
+                                <br> Subject:
+                                <br>
+                                <input type="text" name="subject"> </form>
+                        </div>
+                        <div id="msg">
+                            <form>
+                                <br> Message:
+                                <br>
+                                <input class="messagetext" type="text" name="message"> </form>
+                        </div>
+                        <div id="submitbutton">
+                            <form>
+                                <br>
+                                <a>
+                                    <input class="button" value="Submit" type="submit"> </a>
+                            </form>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <footer>
+                <p>&copy; Su Hnin Pwint 2016</p>
+            </footer>
         </div>
     </div>
 </body>

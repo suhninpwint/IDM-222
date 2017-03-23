@@ -1,12 +1,13 @@
 body {
-  background-color: yellow;
+  background-color: #082E41;
+    font-size: 100%;
 }
 
 header {
-  background-color: #E4951F;
+  background-color: #082E41;
 }
 
 main,
 aside {
-  width: 50%;
+  width: 100%;
 }

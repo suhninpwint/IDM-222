@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+#name {
+    padding: 10px 0;
+    display: flex;
+}
+
+#email {
+    padding-right: 10px;
+}
+#subject{
+    flex: 1;
+}
+
+#msg {
+    flex: 2;
+}

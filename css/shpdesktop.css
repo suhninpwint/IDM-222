@@ -6,27 +6,27 @@
 html { font-size: 100%; }
 
 body {
-  background-color: #0A76B2;
+  background-color: #082E41;;
   /*font: 100%/1.4 Arial, sans-serif;*/
-  font-family: 'Julius Sans One', sans-serif;
+
 }
 
 header {
-  background-color: #B26500;
+  background-color: #082E41;
   color: white;
   padding: 1rem;
   text-align: center;
 }
 
 .contain {
-  background-color: #35B7FF;
+  background-color: #082E41 ;
   margin: 1rem auto;
   padding: 1rem;
   width: 80%;
 }
 
 aside {
-  background-color: #FF9C1B;
+  background-color: #082E41;
   padding: 1rem;
 }
 
@@ -34,12 +34,14 @@ img {
     max-width: 100%;
     height: auto;
 }
+/*
 h1 {
   font-size: 5.9vw;
 }
 h2 {
   font-size: 3.0vh;
 }
+*/
 p {
   font-size: 2vmin;
 }

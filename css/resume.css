@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #082E41;
+    margin-left: 10px;
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+    color: #24BABD;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#name_resume {
+    font-family: 'Lato', sans-serif;
+    color: #24BABD;
+    font-size: 20px;
+     text-align: right;
+}
+
+
+
+hr {
+   
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: 970px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+
+/* Column 1 */
+#column1 {
+    width: 313px;
+    padding: 10px;
+    padding-left: 30px;
+    float: left;
+}
+
+/* Column 2 */
+
+#columnseperate{
+    width:313px;
+    float:left;
+    padding-left: 40px;
+}
+
+#column2{
+    width: 313px;
+    padding-left:40px;
+    float: right;
+    padding-right:  5rem;
+
+}
+
+
+/* Head titles */
+
+#uni_info {
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+}
+
+#computerskills {
+    color: #24BABD;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+}
+
+#coursework {
+    font-family: 'Lato', sans-serif;
+    color: #24BABD;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#awards {
+    font-family: 'Lato', sans-serif;
+    color: #24BABD;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#Activities {
+    font-family: 'Lato', sans-serif;
+    color: #24BABD;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#workexperience {
+    font-family: 'Lato', sans-serif;
+    color: #24BABD;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#volunteerwork {
+    font-family: 'Lato', sans-serif;
+    color: #24BABD;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+/* Descriptions */
+
+#content0 {
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
+
+#content1 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+#content2 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+#content3 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+#content4 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+#content5 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+#content6 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+#content7 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+#content8 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+#p {
+    color: #24BABD;
+}
+
+#resume {
+    text-align: right;
+}
+
+
+/* Flex box */
+
+/*
+
+#footer {
+    position: absolute;
+    bottom: 70px;
+    width: 200px;
+    height:100px;
+    /* padding: 1rem;
+ 
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+*/
