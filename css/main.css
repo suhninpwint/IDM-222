@@ -254,16 +254,24 @@ a:active {
 /*Footer */
 
 /*_________________________________ */
+/*
 footer {
-    padding-bottom: 10px;
+    padding-bottom: 14px;
     padding-left: 550px;
-    padding-right: 10px;
+    padding-right: 13px;
     padding-top: 10px;
     font-family: 'Roboto', sans-serif;
     color: whitesmoke;
     position: absolute;
 }
-
+*/
+footer{
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Robot', sans-serif;
+    color:whitesmoke;
+}
 #titlecategory,#pagename {
     color: #24BABD;
     font-size: 30px;
