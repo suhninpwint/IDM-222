@@ -66,7 +66,7 @@ a{
 	color: #333;
 	text-decoration: none;
 }
-/*
+
 .container{
 	position: relative;
 	text-align: center;
@@ -102,7 +102,7 @@ a{
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 /* Header Style */
-/*
+
 .codrops-top{
 	font-family: Arial, sans-serif;
 	line-height: 24px;
@@ -184,7 +184,7 @@ p.codrops-demos a.current-demo:hover{
 	color: #A5727D;
 	background: #6d0019;
 }
-*/
+
 
 /* Media Queries */
 @media screen and (max-width: 767px) {
